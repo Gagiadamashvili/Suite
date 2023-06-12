@@ -1,0 +1,333 @@
+@media screen and (min-width: 760px) {
+    header {
+        width: 760px;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    h3 {
+        margin-left: 39px;
+    }
+
+    .button1 {
+        width: 219px;
+        height: 56px;
+        text-align: center;
+        padding-top: 12px;
+        font-size: 16px;
+        line-height: 32px;
+        letter-spacing: -0.16px;
+        margin-right: 28px;
+    }
+
+    .tablet {
+        display: flex;
+    }
+
+    .phone {
+        background: radial-gradient(100% 100% at 100% 100%, #A060FF 0%, #CB30E3 33.18%, #FFA84E 100%);
+        width: 281px;
+        height: 482px;
+    }
+
+    .iphoneimg {
+        width: 174.22px;
+        height: 449.06px;
+        position: relative;
+        top: 55.1%;
+        display: block;
+    }
+
+    .line {
+        position: relative;
+        left: 20%;
+        top: 5%;
+        background-repeat: no-repeat;
+        width: 231.19px;
+        background-image: url(/Assets/tabletpathh.svg);
+    }
+
+    .title {
+        margin-left: 39px;
+    }
+
+    .title h2 {
+        margin-top: 50px;
+        width: 520px;
+        font-weight: 400;
+        font-size: 56px;
+        line-height: 64px;
+        letter-spacing: -0.777778px;
+        color: var(--darkblue);
+        position: absolute;
+        z-index: 1;
+    }
+
+    .title p {
+        padding-top: 200px;
+    }
+
+    .companies {
+        margin-left: 39px;
+        width: 689px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 88px;
+    }
+
+    .companiestablet {
+        display: grid;
+    }
+
+    .footman {
+        margin-top: 92px;
+        width: 689px;
+        height: 740px;
+        position: relative;
+        z-index: 1;
+        top: 12%;
+        left: 5%;
+    }
+
+    .manimg {
+        background-image: url(./Assets/tablet-man.svg);
+        background-repeat: no-repeat;
+        width: 689px;
+        height: 402px;
+        position: relative;
+        left: 0%;
+
+    }
+
+    .line2 {
+        margin-left: 50px;
+    }
+
+    .footertxt {
+        text-align: center;
+        display: grid;
+        justify-content: center;
+    }
+
+    .footertxt h1 {
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    .footertxt p {
+        width: 573px;
+        font-size: 18px;
+        line-height: 32px;
+        text-align: center;
+        letter-spacing: 0.09px;
+        font-weight: 400;
+    }
+
+    .footertxt a {
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 2.5px;
+        text-align: center;
+        padding-left: 30px;
+    }
+
+    .footertxt h3 {
+        font-size: 18px;
+        line-height: 32px;
+        letter-spacing: -0.18px;
+    }
+
+    .endfooter {
+        background-color: var(--cream);
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    .endfooter h3 {
+        padding-top: 200px;
+        padding-left: 10px;
+    }
+
+    .endfooter p {
+        padding-top: 200px;
+    }
+
+    .icon {
+        padding-top: 200px;
+        padding-right: 30px;
+    }
+
+
+}
+
+@media screen and (min-width: 1400px) {
+    header {
+        width: 100vw;
+    }
+
+    .logo {
+        width: 1400px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    main {
+        display: flex;
+        width: 100%;
+
+
+
+    }
+
+    .companies {
+        width: 200px;
+        display: grid;
+        justify-content: space-between;
+        margin-left: 160px;
+
+
+    }
+
+    .logo h3 {
+        margin-left: 165px;
+    }
+
+    .title {
+        margin-left: 166px;
+    }
+
+    .title p {
+        width: 350px;
+        font-size: 18px;
+        line-height: 32px;
+        letter-spacing: 0.1px;
+        padding-top: 240px;
+    }
+
+    .line {
+        position: relative;
+        left: 40%;
+    }
+
+    .title h2 {
+        font-weight: 400;
+        font-size: 72px;
+        line-height: 78px;
+        letter-spacing: -1px;
+        color: var(--darkblue);
+        position: absolute;
+        z-index: 1;
+        width: 635px;
+    }
+
+    .button2 {
+        margin-top: 62px;
+    }
+
+    .phone {
+        width: 350px;
+        height: 600px;
+        margin-left: 83px;
+    }
+
+    .iphoneimg {
+        background-image: url(./Assets/desktop-phone.svg);
+        width: 217px;
+        height: 559px;
+        position: relative;
+        top: 47.8%;
+        left: 15%;
+        z-index: 1;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    .footman {
+        width: 1109px;
+        height: 545px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        margin-left: 100px;
+
+    }
+
+    .endfooter {
+        width: 100%;
+    }
+
+
+    .manimg {
+        background-image: url(./Assets/Desktop-Man.svg);
+        width: 359.81px;
+        height: 589.56px;
+        margin-left: 20px;
+    }
+
+    .line2 {
+        position: relative;
+        top: 30%;
+        left: 0%;
+    }
+
+    .footertxt {
+        padding-top: 150px;
+    }
+
+    .footertxt h1 {
+        font-size: 48px;
+        line-height: 48px;
+        letter-spacing: -0.5px;
+        padding-left: 30px;
+
+    }
+
+    .footertxt p {
+        text-align: start;
+        width: 380px;
+        font-size: 20px;
+        line-height: 35px;
+        letter-spacing: 0.1px;
+        padding-left: 60px;
+    }
+
+    .footertxt h3 {
+        text-align: start;
+        padding-left: 20px;
+        font-size: 18px;
+        line-height: 32px;
+        letter-spacing: -0.18px;
+
+    }
+
+    .footertxt a {
+        padding-right: 190px;
+        font-size: 16;
+        line-height: 26px;
+        letter-spacing: 2.5px;
+    }
+
+
+    .endfooter h3 {
+        font-size: 32px;
+        line-height: 32px;
+        letter-spacing: -0.444444px;
+    }
+
+    .endfooter p {
+        font-size: 15px;
+        line-height: 32px;
+        letter-spacing: 0.0833333px;
+    }
+
+}
